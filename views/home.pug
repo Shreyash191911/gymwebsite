@@ -1,0 +1,36 @@
+extends base.pug 
+
+block scripts
+  script(src='/static/index.js') 
+
+block style 
+  style
+      include ../static/style.css  
+
+block content   
+    section#introsection 
+       | welcome to the largest gym in the town 
+
+    section#missionsection 
+       h2 This is our mission 
+       div.card
+            h1 Transform Your Fitness Journey: Unleash Your Potential at Gym  
+            div.card-box 
+                div.cardimg
+                    img(src="/static/bsk.jpg")
+       div.card
+            h1 Elevate Your Workouts: Experience Excellence at Gym  
+            div.card-box 
+                div.cardimg
+                    img(src="/static/2564078.jpg")
+       div.card
+            h1 Achieve Your Fitness Dreams: Join Gym for a Healthier, Stronger You 
+            div.card-box 
+                div.cardimg
+                    img(src="/static/image.jpg") 
+    section#sponsorsection 
+       h2 Our sponsors  
+            div#sponsors
+                img(src="/static/download.png", alt="image not loaded", class="spnimage")
+                img(src="/static/open AI.png", alt="image not loaded", class="spnimage")
+                img(src="/static/apple.png", alt="image not loaded", class="spnimage")  

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap'); 
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+    /* height: 70px; */
+}
+#logo{
+    display:flex;
+    height: 115px;
+    width: 107px;
+    padding-top: 7px;
+    padding-left: 0px;    
+    padding-bottom: 10px;
+}
+.img{
+    border-radius: 50%; 
+}
+
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 14px 76px;
+    font-size: x-large;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+}
+#navbar li a:hover{
+    background-color: aliceblue;
+}
+#introsection{
+    color: rgb(198, 35, 35);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;  
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 900px;   
+    background-color:blueviolet; 
+    text-align: center;
+} 
+#sponsorsection{
+    height: 300px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+#missionsection{
+    height: 300px;
+    background-color: rgb(66, 110, 84);   
+    padding-top: 12px;
+    text-align: center;
+}
+.card{
+    border: 3px solid black;
+    border-radius: 7px;
+    width: 30%; 
+    height: 247px;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: dimgray; 
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardimg{
+    height: 247px;
+    width: 30%; 
+}
+.cardimg img{
+    height: 146px;
+    width: 363px;
+}
+#sponsorsection h2{
+    padding-top: 25px;
+    text-align: center;
+}
+#sponsors{
+    height: 173px;
+    max-width: 1000px;
+    /* display: flex;  */
+    margin: 34px 41px; 
+}
+.spnimage{
+    height: 85%;
+    /* width: 150px; */
+    /* display: inline-block; */ 
+    margin: 20px;  
+}
+#footer{
+    height: 100px; 
+    background-color: rgb(27, 40, 24);
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    align-items: center;
+} 

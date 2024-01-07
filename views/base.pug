@@ -1,0 +1,21 @@
+doctype html  
+html
+  head
+    title gym
+    block scripts
+    block style 
+      script(src='/jquery.js')
+  body
+     nav#navbar.top 
+      ul
+        div#logo
+            img(src="/static/45671.jpg", class="img") 
+            | HDA       
+        li #[a(href = "/") Home]
+        li #[a(href = "/") About Us] 
+        li #[a(href = "/") Services] 
+        li #[a(href = "/contact") Contact Us] 
+
+     block content
+     footer#footer 
+       | copyright © 2023 all rights reserved @GYM  

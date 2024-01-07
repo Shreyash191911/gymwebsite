@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.myInput{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 35px;
+    width: 558px;
+    margin: 20px auto;
+    padding: 2px 52px;
+    background-color: darkgrey;
+    border: 3px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    height: 56px;
+    width: 219px;
+    background-color: black;
+    color: white;
+    margin: 21px 509px;
+    padding: 4px 15px;
+    border-radius: 17px; 
+    font-size: x-large; 
+    border: 3px solid black;
+}
+.btn:hover{
+    background-color: rgb(36, 25, 25);
+    cursor: pointer;
+    color: red; 
+}
